@@ -169,9 +169,12 @@ eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
 
 
 ## Kubernetes Validation
-![kubectl get nodes](Screenshot 2026-04-14 211725.png)
-![kubectl get pods](Screenshot 2026-04-14 211801.png)
-![kubectl get svc](Screenshot 2026-04-14 211824.png)
+**kubectl get nodes** <img width="1832" height="1000" alt="Screenshot 2026-04-14 211725" src="https://github.com/user-attachments/assets/90de4dd0-c2d2-4b4d-a06e-448bbf749a5b" />
+ 
+**kubectl get pods** <img width="1919" height="556" alt="Screenshot 2026-04-14 211801" src="https://github.com/user-attachments/assets/58b0d735-ef87-4995-b228-30a1b4b962f5" />
+
+**kubectl get svc** <img width="1919" height="496" alt="Screenshot 2026-04-14 211850" src="https://github.com/user-attachments/assets/9d1a519a-2a70-484f-8bec-ba954fb00ac5" />
+
 
 ---
 
