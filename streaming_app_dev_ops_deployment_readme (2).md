@@ -153,14 +153,15 @@ eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
 
 **IAM Permissions** <img width="1829" height="944" alt="Screenshot 2026-04-14 213119" src="https://github.com/user-attachments/assets/a5f2ddca-ffe3-4588-bc0b-ce76ab895951" />
 
-**ECR Repositories** 
+**ECR Repositories** <img width="1832" height="1000" alt="Screenshot 2026-04-14 211725" src="https://github.com/user-attachments/assets/4fe6fc68-9b10-4c87-bc26-6ab60953da6c" />
+
 
 ## Jenkins CI/CD
-![Jenkins Unlock](Screenshot 2026-04-14 200922.png)
+**![Jenkins Unlock](Screenshot 2026-04-14 200922.png)
 ![Jenkins Job Status](Screenshot 2026-04-14 211556.png)
 ![Jenkins Build Details](Screenshot 2026-04-14 211620.png)
 ![Jenkins Console Output](Screenshot 2026-04-14 211640.png)
-![Jenkins Build Success](Screenshot 2026-04-14 211649.png)
+![Jenkins Build Success](Screenshot 2026-04-14 211649.png)**
 
 ## Kubernetes Validation
 ![kubectl get nodes](Screenshot 2026-04-14 211725.png)
