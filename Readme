@@ -159,6 +159,131 @@ Accessed application successfully through external browser URL.
 * Application accessible in browser
 
 ---
+# Commands Used (Brief)
+
+## Git Commands
+
+```bash
+git clone https://github.com/UnpredictablePrashant/StreamingApp.git
+cd StreamingApp
+git status
+git add .
+git commit -m "Project updates"
+git push origin main
+```
+
+---
+
+## Docker Commands
+
+```bash
+docker build -t auth-service ./backend/authService
+docker build -t chat-service ./backend/chatService
+docker build -t admin-service ./backend/adminService
+docker build -t streaming-service ./backend/streamingService
+docker build -t streaming-frontend ./frontend
+
+docker images
+docker ps
+```
+
+---
+
+## AWS CLI Commands
+
+```bash
+aws configure
+aws sts get-caller-identity
+```
+
+---
+
+## Amazon ECR Commands
+
+```bash
+aws ecr create-repository --repository-name auth-service
+aws ecr create-repository --repository-name chat-service
+aws ecr create-repository --repository-name admin-service
+aws ecr create-repository --repository-name streaming-service
+aws ecr create-repository --repository-name streaming-frontend
+
+aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.ap-south-1.amazonaws.com
+```
+
+---
+
+## Docker Push Commands
+
+```bash
+docker tag auth-service:latest <account-id>.dkr.ecr.ap-south-1.amazonaws.com/auth-service:latest
+docker push <account-id>.dkr.ecr.ap-south-1.amazonaws.com/auth-service:latest
+```
+
+(Same process repeated for all services)
+
+---
+
+## Jenkins Commands
+
+```bash
+sudo apt update
+sudo apt install openjdk-17-jdk -y
+sudo apt install jenkins -y
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl status jenkins
+```
+
+---
+
+## Docker on Jenkins Server
+
+```bash
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker jenkins
+sudo usermod -aG docker ubuntu
+```
+
+---
+
+## Kubernetes / EKS Commands
+
+```bash
+eksctl create cluster --name streaming-cluster-v2 --region ap-south-1 --nodes 2 --node-type t3.medium
+
+kubectl get nodes
+kubectl get pods
+kubectl get svc
+```
+
+---
+
+## Deployment Commands
+
+```bash
+kubectl create deployment streaming-frontend --image=<account-id>.dkr.ecr.ap-south-1.amazonaws.com/streaming-frontend:latest
+
+kubectl expose deployment streaming-frontend --type=LoadBalancer --port=80 --target-port=80
+```
+
+---
+
+## Helm Commands
+
+```bash
+helm version
+helm create streamingapp
+```
+
+---
+
+## Cleanup Commands
+
+```bash
+eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
+```
 
 # Screenshots
 
