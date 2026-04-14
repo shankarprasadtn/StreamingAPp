@@ -135,8 +135,10 @@ eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
 **Application Home**
 <img width="1916" height="1130" alt="Screenshot 2026-04-14 212030" src="https://github.com/user-attachments/assets/b30e933c-0986-4844-a52f-4da3eddf0e03" />
 
-![Application Features](Screenshot 2026-04-14 212040.png)
-![Create Account](Screenshot 2026-04-14 212050.png)
+**Application Features** <img width="1919" height="1139" alt="Screenshot 2026-04-14 212040" src="https://github.com/user-attachments/assets/2cd5efb9-bf55-42ab-961c-5501aa1a210d" />
+
+**Create Account** <img width="1910" height="1135" alt="Screenshot 2026-04-14 212050" src="https://github.com/user-attachments/assets/430d837a-860a-4896-99a5-81bd022ac425" />
+
 ![Streaming Steps](Screenshot 2026-04-14 212104.png)
 
 ## AWS EKS
