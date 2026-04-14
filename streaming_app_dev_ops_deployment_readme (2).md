@@ -6,6 +6,7 @@ This project demonstrates end-to-end orchestration, CI/CD automation, containeri
 
 The application was containerized, integrated with Jenkins CI/CD, stored in Amazon ECR, and deployed to Amazon EKS using Kubernetes.
 
+# Original Repository url: https://github.com/UnpredictablePrashant/StreamingApp.git
 ---
 
 # Tech Stack
