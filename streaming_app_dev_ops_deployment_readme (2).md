@@ -132,7 +132,7 @@ eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
 # Screenshots
 
 ## Application UI
-![Application Home]<img width="1916" height="1130" alt="Screenshot 2026-04-14 212030" src="https://github.com/user-attachments/assets/b30e933c-0986-4844-a52f-4da3eddf0e03" />
+[Application Home]<img width="1916" height="1130" alt="Screenshot 2026-04-14 212030" src="https://github.com/user-attachments/assets/b30e933c-0986-4844-a52f-4da3eddf0e03" />
 
 ![Application Features](Screenshot 2026-04-14 212040.png)
 ![Create Account](Screenshot 2026-04-14 212050.png)
