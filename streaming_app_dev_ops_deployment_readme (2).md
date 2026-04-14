@@ -157,11 +157,16 @@ eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
 
 
 ## Jenkins CI/CD
-**![Jenkins Unlock](Screenshot 2026-04-14 200922.png)
-![Jenkins Job Status](Screenshot 2026-04-14 211556.png)
-![Jenkins Build Details](Screenshot 2026-04-14 211620.png)
-![Jenkins Console Output](Screenshot 2026-04-14 211640.png)
-![Jenkins Build Success](Screenshot 2026-04-14 211649.png)**
+**Jenkins Unlock** <img width="1901" height="1131" alt="Screenshot 2026-04-14 200922" src="https://github.com/user-attachments/assets/e2637744-6c4f-4bf5-bc15-fb5624151713" />
+
+**Jenkins Job Status** <img width="1908" height="1062" alt="Screenshot 2026-04-14 211556" src="https://github.com/user-attachments/assets/157955ad-030e-49a6-941b-235ba8533fc9" />
+
+**Jenkins Build Details** <img width="1899" height="1079" alt="Screenshot 2026-04-14 211620" src="https://github.com/user-attachments/assets/581c1f59-7f09-4bd0-bf18-be47902f9cd5" />
+
+**Jenkins Console Output** <img width="1909" height="1132" alt="Screenshot 2026-04-14 211640" src="https://github.com/user-attachments/assets/cba14a0b-3ee1-496e-a6be-6f8d72b72c0f" />
+ 
+**Jenkins Build Success** <img width="1909" height="1137" alt="Screenshot 2026-04-14 211649" src="https://github.com/user-attachments/assets/f568b7c5-43fc-42a6-a5c2-50963588e238" />
+
 
 ## Kubernetes Validation
 ![kubectl get nodes](Screenshot 2026-04-14 211725.png)
