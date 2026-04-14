@@ -149,9 +149,11 @@ eksctl delete cluster --region ap-south-1 --name streaming-cluster-v2
 
 
 ## AWS IAM / ECR
-![IAM Users](Screenshot 2026-04-14 213055.png)
-![IAM Permissions](Screenshot 2026-04-14 213119.png)
-![ECR Repositories](Screenshot 2026-04-14 211850.png)
+**IAM Users** <img width="1830" height="914" alt="Screenshot 2026-04-14 213055" src="https://github.com/user-attachments/assets/5cca5b67-6d77-4d91-a6da-1fcf0c013619" />
+
+**IAM Permissions** <img width="1829" height="944" alt="Screenshot 2026-04-14 213119" src="https://github.com/user-attachments/assets/a5f2ddca-ffe3-4588-bc0b-ce76ab895951" />
+
+**ECR Repositories** 
 
 ## Jenkins CI/CD
 ![Jenkins Unlock](Screenshot 2026-04-14 200922.png)
